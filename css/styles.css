@@ -24,7 +24,7 @@ h2 {
 h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -139,6 +139,39 @@ p {
     padding: 3% 2%;
 }
 
+
+
+
+/* Bottom Section */
+
+#cta {
+    color: white;
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.icon2 {
+    margin: 0px 10px;
+}
+
+#copyright {
+    padding-top: 20px;
+}
+
 @media (max-width: 1028px) {
 
     #title {
@@ -149,30 +182,4 @@ p {
         position: static;
         transform: rotate(0);
     }
-}
-
-
-/* Bottom Section */
-
-#cta {
-    font-family: Montserrat, sans-serif;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-    background-color: #ff4c68;
-    padding: 7% 15%;
-}
-
-#footer {
-    background-color: white;
-    padding: 7% 15% 0%;
-    text-align: center;
-}
-
-.icon2 {
-    padding: 0px 10px;
-}
-
-#copyright {
-    padding-top: 20px;
 }
